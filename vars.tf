@@ -1,9 +1,9 @@
 variable "projectName" {
-  default = "sonarqube"
+  default = "hackaton-fiap-duo"
 }
 
 variable "clusterName" {
-  default = "SonarQube"
+  default = "hackatonFiapDuo"
 }
 
 variable "regionDefault" {
@@ -69,7 +69,7 @@ variable "AWSAccount" {
 variable "tags" {
   type = map(string)
   default = {
-    App      = "sonarqube",
+    App      = "hackatonfiapduo",
     Ambiente = "Desenvolvimento"
   }
 }
